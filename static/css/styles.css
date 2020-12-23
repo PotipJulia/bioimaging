@@ -3,23 +3,28 @@ body{
 	font-family: 'Roboto', sans-serif;
 }
 h1{
-    //background-color:#95adbe;
-    //padding: 40px;
-    //border-radius: 16px;
 	color:#f0ece2;
-	text-align:center;"
+	text-align:center;
 }
-h2{
-	color:#acdbdf;
-}
-
 table {
 	font-family: 'Roboto', sans-serif;
+	margin-left: auto;
+    margin-right: auto;
     border-collapse: collapse;
+    border-radius: 1em;
+    overflow: hidden;
     background:#f0ece2;
-    width: 100%;
+}
+td{
+    padding: 5px;
+}
+th{
+    background:#D7D5D0;
+    padding: 9px;
+    text-align:center;
+    font-weight: bold;
 }
 
 .uCT{
-	text-align: center
+	text-align: center;
 }
