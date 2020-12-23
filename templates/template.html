@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="static/css/styles.css">
+</head>
+<body>
+<h1>Application for uCT images</h1>
+
+<!--<button onclick="document.location='default.asp'">Show image</button>-->
+
+<div class="uCT">
+	<img src="static/css/images/klk11_f_e64-f1023_ax1.bmp" alt="Mouse uCT" width="500" height="300">
+</div>
+
+<table class="table-test">
+  {% for table in tables %}
+    {{titles[loop.index]}}
+    {{ table|safe }}
+  {% endfor %}
+</table>
+
+</body>
+</html>
